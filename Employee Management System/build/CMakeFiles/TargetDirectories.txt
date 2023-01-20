@@ -1,0 +1,3 @@
+/home/athena/BigDisk/Project/ProjectC/Employee Management System/build/CMakeFiles/manage_sys.dir
+/home/athena/BigDisk/Project/ProjectC/Employee Management System/build/CMakeFiles/edit_cache.dir
+/home/athena/BigDisk/Project/ProjectC/Employee Management System/build/CMakeFiles/rebuild_cache.dir

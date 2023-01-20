@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -rdynamic CMakeFiles/manage_sys.dir/main.cpp.o CMakeFiles/manage_sys.dir/src/boss.cpp.o CMakeFiles/manage_sys.dir/src/employee.cpp.o CMakeFiles/manage_sys.dir/src/Manager.cpp.o CMakeFiles/manage_sys.dir/src/worker.cpp.o CMakeFiles/manage_sys.dir/src/workerManager.cpp.o -o manage_sys 

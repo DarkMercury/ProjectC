@@ -1,11 +1,11 @@
 #pragma once // 防止头文件重复包含
 #include <iostream>
-#include"worker.h"
-#include"manager.h"
-#include"employee.h"
-#include"boss.h"
+#include "worker.h"
+#include "manager.h"
+#include "employee.h"
+#include "boss.h"
 
-#include<fstream>
+#include <fstream>
 #define FILENAME "/Users/littlestar/Artifical Intelligence/ProjectC/Employee Management System/Save/empFile.txt" // 宏定义
 
 using namespace std;
@@ -63,5 +63,4 @@ public:
 
     // 判断文件是否为空
     bool m_FileIsEmpty;
-
 };
