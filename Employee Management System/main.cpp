@@ -24,6 +24,9 @@ int main()
     // 实例化对象
     WorkerManager wm;
     int select = 0;
+    cout<<"hfjdhfja"<<endl;
+    cout<<"hedddddd"<<endl;
+    cout<<"dsfasd"<<endl;
 
     while (true)
     {
