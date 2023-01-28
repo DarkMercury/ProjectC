@@ -1,6 +1,7 @@
 {
     "version": "2.0.0",
     "options": {
+        // 进入到填写的文件夹
         "cwd": "${workspaceFolder}/build"
     },
     "tasks": [
@@ -23,7 +24,9 @@
         },
         {
             "label": "Build",
+            // 顺序执行指令
             "dependsOrder": "sequence",
+            // 填写执行的标签，也就是执行上面两个task
             "dependsOn":[
                 "cmake",
                 "make"

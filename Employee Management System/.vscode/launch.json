@@ -10,6 +10,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/manage_sys",
+            // 该选项最为重要，设置了所要调试的program也就是生成的可执行文件
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -28,6 +29,7 @@
                     "ignoreFailures": true
                 }
             ],
+            // 以下两个重要，第一个设置了编译前应该作的事情也就是tasks.json要做的事情，名字要对应
             "preLaunchTask": "Build",
             "miDebuggerArgs": "/usr/bin/g++"
         }
